@@ -8,7 +8,7 @@ class Triangle
     @side1 = side1
     @side2 = side2
     @side3 = side3
-    binding.pry
+    # binding.pry
   end #initialize
 
   def kind
