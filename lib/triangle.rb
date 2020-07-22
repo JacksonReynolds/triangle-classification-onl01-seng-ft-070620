@@ -8,4 +8,14 @@ class Triangle
     @side3 = side3
   end #initialize
 
-end
+  def kind
+
+  end #kind
+
+  class TriangleError < StandardError
+    def message
+      "The triangle is invalid, try again!"
+    end #message
+  end #TriangleError
+
+end #Triangle
